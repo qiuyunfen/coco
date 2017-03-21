@@ -1,0 +1,29 @@
+{
+  "name": "coco",
+  "version": "1.0.0",
+  "description": "coco another_branch update now test ununtu evi",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "webpack",
+    "local": "webpack-dev-server --hot --inline --port 8020",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiuyunfen/coco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiuyunfen/coco/issues"
+  },
+  "homepage": "https://github.com/qiuyunfen/coco#readme",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-loader": "^6.4.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}

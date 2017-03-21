@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'run', 'local' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 verbose run-script [ 'prelocal', 'local', 'postlocal' ]
+5 info lifecycle coco@1.0.0~prelocal: coco@1.0.0
+6 silly lifecycle coco@1.0.0~prelocal: no script for prelocal, continuing
+7 info lifecycle coco@1.0.0~local: coco@1.0.0
+8 verbose lifecycle coco@1.0.0~local: unsafe-perm in lifecycle true
+9 verbose lifecycle coco@1.0.0~local: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/qiuyf/Workspace/git/mygit/coco/node_modules/.bin:/home/qiuyf/bin:/home/qiuyf/.local/bin:/home/qiuyf/bin:/home/qiuyf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+10 verbose lifecycle coco@1.0.0~local: CWD: /home/qiuyf/Workspace/git/mygit/coco
+11 silly lifecycle coco@1.0.0~local: Args: [ '-c', 'webpack-dev-server --hot --inline --port 8020' ]
+12 silly lifecycle coco@1.0.0~local: Returned: code: 1  signal: null
+13 info lifecycle coco@1.0.0~local: Failed to exec local script
+14 verbose stack Error: coco@1.0.0 local: `webpack-dev-server --hot --inline --port 8020`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid coco@1.0.0
+16 verbose cwd /home/qiuyf/Workspace/git/mygit/coco
+17 error Linux 4.8.0-38-generic
+18 error argv "/usr/bin/nodejs" "/usr/bin/npm" "run" "local"
+19 error node v6.9.5
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error coco@1.0.0 local: `webpack-dev-server --hot --inline --port 8020`
+22 error Exit status 1
+23 error Failed at the coco@1.0.0 local script 'webpack-dev-server --hot --inline --port 8020'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the coco package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack-dev-server --hot --inline --port 8020
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs coco
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls coco
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
